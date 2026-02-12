@@ -11,20 +11,20 @@ type FAQItem = {
 // guess i will have to do it ugh
 const faqItems: FAQItem[] = [
   {
-    question: "Is Borion a virus?",
-    answer: "Borion is NOT a virus, there may be some antiviruses that detect it as a [false positive](https://encyclopedia.kaspersky.com/glossary/false-positive/), we reccomend making an exception on you antivirus."
+    question: "Which versions does Borion support?",
+	answer: "The latest [stable](https://github.com/Borion-Updated/Releases/releases/latest) release is 26.X. However, we do offer all previous DLLs, maybe you find one for your version. There are DLLs for 1.20.1X-1.21.3X and 1.21.13X-26.X."
   },
   {
-    question: "Is Borion Open Source?",
+    question: "Is Borion a virus?",
+    answer: "Borion is NOT a virus, there may be some AntiViruses that detect it as a [false positive](https://encyclopedia.kaspersky.com/glossary/false-positive/). We recommend making an exception on your AntiVirus."
+  },
+  {
+    question: "Is Borion open source?",
     answer: "No, Borion is not open source."
   },
   {
     question: "Does Borion cost money?",
-    answer: "No, Borion does not cost money."
-  },
-  {
-    question: "When 1.21.50 support?",
-    answer: "No™️"
+    answer: "No, Borion does not cost money. If you paid for it anyway, you got scammed."
   }
 ]
 
